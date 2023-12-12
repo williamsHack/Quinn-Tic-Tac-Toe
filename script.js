@@ -101,6 +101,14 @@ const playerDraw = () => {
   }
 };
 
+const audioElement = document.getElementById('gameMusic');
+  audioElement.play();
+
+  // Pause music on game end
+  function gameOver() {
+    audioElement.pause();
+  }
+
 const restart = () => {
   setTimeout(() => {
     spaces.forEach((space, i) => {
