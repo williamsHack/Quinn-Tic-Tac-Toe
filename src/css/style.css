@@ -1,0 +1,80 @@
+.board {
+    display: none;
+    flex-wrap: wrap;
+    margin: auto;
+    max-width: 300px;
+    max-height: 300px;
+  }
+  
+  .cell {
+    width: 30%;
+    height: 100px;
+    border-top: 4px solid #008cba;
+    border-right: 4px solid #008cba;
+    text-align: center;
+    font-size: 4rem;
+  }
+  
+  .cell:first-child,
+  .cell:nth-child(2),
+  .cell:nth-child(3) {
+    border-top: none;
+  }
+  
+  .cell:nth-child(3n) { border-right: none; }
+  
+  .win { background-color: gold; }
+  
+  .winning-msg {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(3, 0, 8, 0.7);
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+    font-size: 2rem;
+    padding-top: 18rem;
+  }
+  
+  .winning-msg.show { display: flex; }
+  
+  .winning-msg button {
+    font-size: 3rem;
+    background-color: white;
+    border: 1px solid black;
+    padding: 0.25em 0.5em;
+    cursor: pointer;
+  }
+  
+  .start button { margin: 1rem; }
+  
+  .winning-msg button:hover {
+    background-color: black;
+    border-color: white;
+    color: white;
+  }
+  .winning-msg div { padding: 1rem; }
+  
+  .start {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    padding: 5rem;
+  }
+  
+  #input {
+    border: none;
+    height: 2.4rem;
+    border-bottom: 1px solid gray;
+    outline: none;
+  }
+  
+  .start.show { display: flex; }
+  
+  .board.show { display: flex; }
