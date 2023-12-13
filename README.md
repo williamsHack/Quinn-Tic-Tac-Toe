@@ -31,7 +31,7 @@ Clone this repository
  
  `$npm run start:dev`
 
-## [Live demo](https://quinngame.netlify.app/ "Of the project") of the project
+## [Live demo](https://ibunhabibgame.netlify.app/ "Of the project") of the project
 
 ## Author
 * Github: [William Dickson](https://github.com/williamsHack)
