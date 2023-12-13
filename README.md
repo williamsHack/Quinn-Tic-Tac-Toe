@@ -36,7 +36,7 @@ Clone this repository
 ## Author
 * Github: [William Dickson](https://github.com/williamsHack)
 * Twitter: [@William](https://twitter.com/William25657416)
-* LinkedIn: [Salum Habibu Kombo](https://www.linkedin.com/in/william-dickson-6805a3207)
+* LinkedIn: [William Yaw Okyere Dickson](https://www.linkedin.com/in/william-dickson-6805a3207)
 
 ## your support 
 Give a :star: if you liked this project 
